@@ -3,20 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BookNow</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Карточка товара</title>
 </head>
 <body>
-    <div class="content">
-        <div class="sticky-element">
-            Я остаюсь на месте при прокрутке!
-        </div>
-        <div class="text">
-            <p>Длинный текст для прокрутки...</p>
-        </div>
+    <div class="product-card">
+        <img src="product-image.jpg" alt="Product Image" class="product-image">
+        <h2 class="product-title">Название товара</h2>
+        <p class="product-description">Краткое описание товара. Это может быть текст, который выделяет основные особенности и преимущества.</p>
+        <p class="product-price">\$99.99</p>
+        <button class="buy-button">Купить</button>
     </div>
 </body>
 </html>
