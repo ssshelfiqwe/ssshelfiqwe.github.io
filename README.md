@@ -1,19 +1,22 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BookNow</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-    <main class="main">
-        <div class="container">
-            <div class="block">
-                <h1>Name</h1>
-                <p>Desasdasdasdc</p>
-            </div>
+    <div class="content">
+        <div class="sticky-element">
+            Я остаюсь на месте при прокрутке!
         </div>
-    </main>
+        <div class="text">
+            <p>Длинный текст для прокрутки...</p>
+        </div>
+    </div>
 </body>
 </html>
